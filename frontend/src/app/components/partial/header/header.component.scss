@@ -1,0 +1,38 @@
+/* 2 variables Sass*/
+$navbar-bg-color: #dc3545;
+$a-text-color: white;
+
+.navbar {
+  background-color: $navbar-bg-color;
+  &-brand {
+    color: $a-text-color;
+    font-weight: bold;
+  }
+  &-session{
+    color: $a-text-color;
+    padding-right: 2rem;
+  }
+  &-login{
+    color: $a-text-color;
+    padding-right: 2rem;
+  }
+  &-logout{
+    color: $a-text-color;
+    padding-right: 2rem;
+  }
+
+}
+
+.navbar-logout:hover{
+  color:black;
+}
+
+.d-flex{
+  align-items: center;
+  text-align: center;
+}
+
+a:link { text-decoration: none; }
+a:visited { text-decoration: none; }
+a:hover { text-decoration: none; }
+a:active { text-decoration: none; }

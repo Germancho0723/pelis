@@ -1,0 +1,25 @@
+$display:flex;
+$center:center;
+
+.container{
+  display: $display;
+  justify-content: $center;
+  align-items: $center;
+  height: 100%;
+  margin-top: 3rem;
+}
+
+.details {
+  width: 28rem;
+}
+
+.title {
+  text-align: $center;
+}
+
+form{
+  display: $display;
+  flex-direction: column;
+  justify-content: $center;
+}
+

@@ -1,0 +1,37 @@
+<div class="row">
+<div class="d-flex justify-content-center flex-wrap">
+  <div *ngFor="let movie of movies" class="container">
+    <div class="row">
+      <div class="col">
+        <img class="imghead" [src]="movie.poster" alt="{{movie.nombrePeli}}">
+      </div>
+      <div class="col" style="padding-top: 2em;">
+        <span class="nombre">{{movie.nombrePeli}}</span>
+        <div class="content text-justify">
+          <p></p>
+          <p>{{movie.resena}}</p>
+          <p><b>Fecha Estreno:</b> {{movie.fecha}}
+          <p><b>Genero:</b> {{movie.genero}}
+          <p><b>Duración:</b> 🕑{{movie.duracion}}</p>
+          <p><b>IMDb:</b> {{movie.imdb}}</p>
+        </div>
+
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="d-flex justify-content-center flex-wrap">
+  <div *ngFor="let repa of reparto" class="card mx-2 my-2 shadow rounded" style="width: 15rem;">
+    <div class="card-header text-center">
+      <p class="card-text">{{repa.nombreAct}}</p>
+    </div>
+
+    <div class="card-header p-1 rounded">
+      <img [src]="repa.imagen" [alt]="repa.imagen" class="card-img-top">
+    </div>
+  <div class="card-body text-center">
+    <p class="card-text">{{repa.personaje}}</p>
+  </div>
+</div>
+

@@ -1,0 +1,63 @@
+@charset "UTF-8";
+/*Interpolación*/
+.gene-Todos {
+  background-color: #01060c;
+  color: white;
+  border: 1px solid black;
+}
+
+.gene-Ciencia {
+  background-color: #3d569c;
+  color: white;
+  border: 1px solid black;
+}
+
+.gene-Accion {
+  background-color: #28a745;
+  color: white;
+  border: 1px solid black;
+}
+
+.gene-Terror {
+  background-color: #505601;
+  color: white;
+  border: 1px solid black;
+}
+
+.gene-Suspenso {
+  background-color: #207b7e;
+  color: white;
+  border: 1px solid black;
+}
+
+.gene-Aventura {
+  background-color: #1a0ce2;
+  color: white;
+  border: 1px solid black;
+}
+
+.gene-Comedia {
+  background-color: #e20c9b;
+  color: white;
+  border: 1px solid black;
+}
+
+.gene-Misterio {
+  background-color: #0ce2d7;
+  color: white;
+  border: 1px solid black;
+}
+
+.gene-Drama {
+  background-color: #e2d40c;
+  color: white;
+  border: 1px solid black;
+}
+
+.gene-Thriller {
+  background-color: #e29e0c;
+  color: white;
+  border: 1px solid black;
+}
+
+/*# sourceMappingURL=generos.component.css.map */

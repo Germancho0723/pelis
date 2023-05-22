@@ -1,0 +1,21 @@
+/*Interpolación*/
+$button-colors: (
+  Todos: #01060c,
+  Ciencia: #3d569c,
+  Accion: #28a745,
+  Terror: #505601,
+  Suspenso: #207b7e,
+  Aventura: #1a0ce2,
+  Comedia: #e20c9b,
+  Misterio: #0ce2d7,
+  Drama: #e2d40c,
+  Thriller: #e29e0c,
+);
+
+@each $color, $value in $button-colors {
+  .gene-#{$color} {
+    background-color: $value;
+    color: white;
+    border: 1px solid black;
+  }
+}

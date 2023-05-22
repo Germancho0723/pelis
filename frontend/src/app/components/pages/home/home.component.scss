@@ -1,0 +1,27 @@
+$padding: 1rem;
+$align-content: center;
+/* Anidación de estilos SASS*/
+.d-flex {
+  justify-content: $align-content;
+  flex-wrap: wrap;
+
+  .card {
+    margin: 2px;
+    padding: $padding;
+    width: 25rem;
+    box-shadow: 0 0.125rem 0.25rem #00000013;
+    border-radius: 0.25rem;
+
+    .card-header {
+      padding: $padding*0.5;
+      width: 15rem;
+      border-radius: 0.25rem;
+      align-self: $align-content;
+
+      img.card-img-top {
+        width: 100%;
+        height: auto;
+      }
+    }
+  }
+}

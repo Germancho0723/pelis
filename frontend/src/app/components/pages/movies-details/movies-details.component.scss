@@ -1,0 +1,51 @@
+/* 4 variables Sass*/
+$rem-widht: 15rem;
+$ren-font: 1rem;
+$color: #a30000;
+$font-size: 40px;
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  margin: 1rem;
+}
+
+.container > * {
+  min-width: $rem-widht;
+  max-width: $rem-widht * 4;
+}
+
+.imghead {
+  border-radius: 5rem;
+  flex: 1 0;
+  object-fit: unset;
+  height: 28rem;
+  width: 20rem;
+  margin: 1rem;
+}
+
+.nombre {
+  font-size: $ren-font * 2.3;
+  font-weight: bold;
+}
+
+.content {
+  font-size: $ren-font * 1.1;
+  align-items: left;
+}
+
+.card-header {
+  font-size: $ren-font * 1.2;
+  font-weight: bold;
+}
+
+span.nombre {
+  color: $color; /* Cambiar color */
+  font-size: $font-size; /* Cambiar tamaño de fuente */
+}
+
+p.card-text {
+  color: $color; /* Cambiar color */
+}

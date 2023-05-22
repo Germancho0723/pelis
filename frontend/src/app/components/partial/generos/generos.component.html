@@ -1,0 +1,5 @@
+<div *ngIf="genero" class="p-2">
+  <a *ngFor="let gene of genero" class="btn btn-outline-info mx-1 my-1 gene-{{ gene.name }}" routerLink="/genero/{{gene.name}}" role="button">
+    {{gene.name}}
+  </a>
+</div>

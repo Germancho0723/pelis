@@ -1,0 +1,23 @@
+<app-generos></app-generos>
+<div class="d-flex">
+  <div *ngFor="let movie of movies" class="card mx-2 my-2">
+    <div class="card-header">
+      <img [src]="movie.poster" [alt]="movie.nombrePeli" class="card-img-top">
+    </div>
+
+    <div class="card-body text-center" style="height: 17rem;">
+      <h5 class="card-title">{{movie.nombrePeli}}</h5>
+      <p class="card-text">{{movie.resena}}</p>
+    </div>
+    <div class="card-body text-justify">
+      <li class="list-group-item" ><b>Fecha Estreno:</b> {{movie.fecha}}</li>
+      <li class="list-group-item" ><b>Genero:</b> {{movie.genero}}</li>
+      <li class="list-group-item"><b>Duración:</b> {{movie.duracion}} 🕑</li>
+      <li class="list-group-item"><b>IMDb:</b> {{movie.imdb}}</li>
+    </div>
+    <div class="card-footer text-center">
+      <a href="#" class="btn btn-danger" routerLink="/movies/{{movie.nombrePeli}}">Más detalles</a>
+    </div>
+
+  </div>
+</div>

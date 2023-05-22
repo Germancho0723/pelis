@@ -1,0 +1,13 @@
+<nav class="navbar">
+  <div class="container-fluid">
+    <a class="navbar-brand" routerLink="/">Pelis U-Compensar</a>
+    <div class="d-flex">
+      <a *ngIf="!user.token" class="navbar-login" routerLink="/login">Entrar</a>
+      <a *ngIf="user.token" class="navbar-session" routerLink="/">{{user.nombre}}</a>
+      <a *ngIf="user.token" (click)="logout()" routerLink="/" class="navbar-logout" >Salir</a>
+      <input #s class="form-control me-2" type="text" placeholder="Buscar" aria-label="Buscar"
+        (keyup.enter)="buscar(s.value)" [value]="search">
+      <button class="btn btn-light" (click)="buscar(s.value)">Buscar</button>
+    </div>
+  </div>
+</nav>

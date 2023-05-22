@@ -1,0 +1,25 @@
+@charset "UTF-8";
+/* Anidación de estilos SASS*/
+.d-flex {
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.d-flex .card {
+  margin: 2px;
+  padding: 1rem;
+  width: 25rem;
+  box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.0745098039);
+  border-radius: 0.25rem;
+}
+.d-flex .card .card-header {
+  padding: 0.5rem;
+  width: 15rem;
+  border-radius: 0.25rem;
+  align-self: center;
+}
+.d-flex .card .card-header img.card-img-top {
+  width: 100%;
+  height: auto;
+}
+
+/*# sourceMappingURL=home.component.css.map */

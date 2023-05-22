@@ -1,0 +1,47 @@
+/* 2 variables Sass*/
+.navbar {
+  background-color: #dc3545;
+}
+.navbar-brand {
+  color: white;
+  font-weight: bold;
+}
+.navbar-session {
+  color: white;
+  padding-right: 2rem;
+}
+.navbar-login {
+  color: white;
+  padding-right: 2rem;
+}
+.navbar-logout {
+  color: white;
+  padding-right: 2rem;
+}
+
+.navbar-logout:hover {
+  color: black;
+}
+
+.d-flex {
+  align-items: center;
+  text-align: center;
+}
+
+a:link {
+  text-decoration: none;
+}
+
+a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+a:active {
+  text-decoration: none;
+}
+
+/*# sourceMappingURL=header.component.css.map */
