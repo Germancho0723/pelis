@@ -1,4 +1,4 @@
-const BASE_URL = "https://peliscompensar.onrender.com";
+const BASE_URL = "http://localhost:3000";
 
 export const MOVIES_URL = BASE_URL + '/api/movies';
 
